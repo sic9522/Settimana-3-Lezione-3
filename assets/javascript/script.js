@@ -54,7 +54,7 @@ function rendiLista() {
     li.append(span);
     bottone(li);
     listaTask.append(li);
-  })
+  });
 };
 
 function bottone(li) {
@@ -80,6 +80,7 @@ function contatoreUno() {
   const tasksElements = listaTask.querySelectorAll('li');
   contatore.textContent = tasks.length;
 };
+
 
 
 
